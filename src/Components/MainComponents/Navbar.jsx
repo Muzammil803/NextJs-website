@@ -12,10 +12,10 @@ function Navbar() {
     ];
     return (
         <header className='bg-[#162e40]'>
-            <nav className='lg:max-w-screen-2xl md:mx-auto px-2'>
+            <nav className='lg:max-w-screen-2xl md:mx-auto px-2 py-2'>
                 <div className='flex justify-between items-center sticky w-full  text-white '>
                     <div className="">
-                        <Image src={logo} width={80} height={50} alt="web-logo" />
+                        <Image src={logo} width={70} height={35} alt="web-logo" />
                     </div>
                     <div className="nav-items">
                         <ul className='flex justify-between items-center space-x-5 font-medium'>
