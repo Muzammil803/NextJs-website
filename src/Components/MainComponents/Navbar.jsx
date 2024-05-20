@@ -29,8 +29,11 @@ function Navbar() {
                         </ul>
                     </div>
                     <div className="space-x-3">
-                        <button className='bg-[#ec4e4f] p-3 rounded-xl '>Login</button>
-                        <button className='bg-[#ec4e4f] p-3 rounded-xl'>SignUp</button>
+                        {/* <button className='bg-[#ec4e4f] p-3 rounded-xl '>Login</button>
+                        <button className='bg-[#ec4e4f] p-3 rounded-xl'>SignUp</button> */}
+                        <button className="text-white mt-2 bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br  focus:outline-none  shadow-lg shadow-red-500/50  font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Login</button>
+                        <button className="text-white mt-2 bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br  focus:outline-none  shadow-lg shadow-red-500/50  font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">SignUp</button>
+                    
                     </div>
                 </div>
             </nav>
