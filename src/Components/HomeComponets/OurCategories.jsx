@@ -56,7 +56,7 @@ const items = [
 export function OurCategories() {
     return (
         <section className="bg-[#f9fafb]">
-            <div className="max-w-screen-2xl mx-auto pt-4 px-20">
+            <div className="max-w-screen-2xl mx-auto pt-4 pb-10 px-20">
                 <h3 className="text-[#222222] text-[32px] font-medium  mb-0 ">
                     Categories
                 </h3>
