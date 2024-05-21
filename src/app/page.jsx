@@ -1,6 +1,7 @@
 import HeroSection from "@/Components/HomeComponets/HeroSection";
 import NewArrival from "@/Components/HomeComponets/NewArrival";
 import OurCategories from "@/Components/HomeComponets/OurCategories";
+import WhyChooseUs from "@/Components/HomeComponets/WhyChooseUs";
 import Navbar from "@/Components/MainComponents/Navbar";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       {/* <main className="px-20"> */}
         <OurCategories />
         <NewArrival/>
+        <WhyChooseUs />
       {/* </main> */}
     </>
   );
