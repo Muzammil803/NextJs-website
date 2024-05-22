@@ -7,7 +7,7 @@ const WhyChooseUs = () => {
             <div className='max-w-screen-2xl mx-auto px-20 py-20'>
                 <div className="flex  items-center">
                     <div className="w-1/2 ms-5">
-                        <div className='h-[500px] w-[370px] rounded-md relative border border-white'>
+                        <div className='h-[500px] w-[370px] rounded-[20px] relative border border-white'>
                             <div className='absolute top-[6%] right-[-20%] w-[90%] h-[88%]'>
                                 <Image src={chooseimg} alt="choose-img"
                                     className='w-full h-full '
@@ -19,7 +19,7 @@ const WhyChooseUs = () => {
                         <div className='text-white max-w-lg'>
                             <h2 className='text-4xl font-bold'>Why Choose Us</h2>
                             <p>
-                                At Q8Hafeez, we're not just a platform; we're your partner in success. Here's why you should join us:
+                                At Owings, we're not just a platform; we're your partner in success. Here's why you should join us:
                             </p>
                             <div className="flex flex-col">
                                 <div className="flex justify-between items-center mt-5 gap-3">
