@@ -12,7 +12,7 @@ function Navbar() {
     ];
     return (
         <header className='bg-[#162e40]'>
-            <nav className='lg:max-w-screen-2xl md:mx-auto px-2 py-2'>
+            <nav className='lg:max-w-screen-2xl md:mx-auto px-10 py-2'>
                 <div className='flex justify-between items-center sticky w-full  text-white '>
                     <div className="">
                         <Image src={logo} width={70} height={35} alt="web-logo" />
@@ -34,8 +34,9 @@ function Navbar() {
                         <Link href="/login" >
                             <button className="text-white mt-2 bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br  focus:outline-none  shadow-lg shadow-red-500/50  font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Login</button>
                         </Link>
-                        <button className="text-white mt-2 bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br  focus:outline-none  shadow-lg shadow-red-500/50  font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">SignUp</button>
-
+                        <Link href="/signup" >
+                            <button className="text-white mt-2 bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br  focus:outline-none  shadow-lg shadow-red-500/50  font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">SignUp</button>
+                        </Link>
                     </div>
                 </div>
             </nav>

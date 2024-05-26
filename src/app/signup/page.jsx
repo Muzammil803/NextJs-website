@@ -6,7 +6,7 @@ import CredentailForm from '@/Components/Forms/credentialForm'
 const Login = () => {
     return (
         <>
-            <Webbanner tittle={"Login"} subtop={"Sign in to access your account"} image={loginimg} />
+            <Webbanner tittle={"Sign up"} subtop={"Create your account"} image={loginimg} />
             <div className='max-w-screen-2xl mx-auto w-full h-full flex justify-center items-center  my-20'>
                 <CredentailForm />
             </div>
