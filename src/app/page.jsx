@@ -4,6 +4,7 @@ import OurCategories from "@/Components/HomeComponets/OurCategories";
 import Vendors from "@/Components/HomeComponets/Vendors";
 import WhyChooseUs from "@/Components/HomeComponets/WhyChooseUs";
 import Navbar from "@/Components/MainComponents/Navbar";
+import "./globals.css";
 
 export default function Home() {
 
