@@ -11,7 +11,7 @@ function Navbar() {
         { name: 'Contact Us', path: '/contactus' }
     ];
     return (
-        <header className='bg-[#162e40]'>
+        <header className='bg-slate-900'>
             <nav className='lg:max-w-screen-2xl md:mx-auto px-10 py-2'>
                 <div className='flex justify-between items-center sticky w-full  text-white '>
                     <div className="">
